@@ -16,7 +16,6 @@ const PageSelector = ({ onDone }) => {
       setAllPagesSelected(true);
     }
   };
-
   const handlePageToggle = (page) => {
     if (selectedPages.includes(page)) {
       const newSelection = selectedPages.filter(p => p !== page);
